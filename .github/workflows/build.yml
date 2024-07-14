@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [osu-lazer, vmware-workstation, visual-studio-code-bin, logseq-desktop-bin, dnsproxy-bin, redsocks, logseq-desktop]
+        repos: [osu-lazer, vmware-workstation, visual-studio-code-bin, logseq-desktop-bin, dnsproxy-bin, redsocks, nekoray]
         include:
           - repos: git-cola
             preinstall-pkgs: "at-spi2-core"
